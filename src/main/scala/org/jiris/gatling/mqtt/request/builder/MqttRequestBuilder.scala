@@ -3,7 +3,7 @@ package org.jiris.gatling.mqtt.request.builder
 import org.jiris.gatling.mqtt.action.MqttRequestActionBuilder
 import org.jiris.gatling.mqtt.protocol.MqttProtocol
 import io.gatling.core.session.Expression
-import org.fusesource.mqtt.client.QoS
+import org.jiris.gatling.mqtt.QoS
 
 case class MqttAttributes(
   requestName: Expression[String],

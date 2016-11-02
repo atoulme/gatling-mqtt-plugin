@@ -3,8 +3,8 @@ package org.jiris.gatling.mqtt.protocol
 import io.gatling.core.protocol.{ ProtocolKey, Protocol }
 import io.gatling.core.session.Expression
 import io.gatling.core.config.GatlingConfiguration
-import org.fusesource.mqtt.client.QoS
- 
+import org.jiris.gatling.mqtt.QoS
+
 object MqttProtocol  {
 
   val MqttProtocolKey = new ProtocolKey {

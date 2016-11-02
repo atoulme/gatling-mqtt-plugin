@@ -5,13 +5,13 @@ import org.jiris.gatling.mqtt.protocol.MqttComponents
 import org.jiris.gatling.mqtt.request.builder.MqttAttributes
 import io.gatling.core.action.builder.ActionBuilder
 import io.gatling.core.protocol.ProtocolComponentsRegistry
-import org.fusesource.mqtt.client.MQTT
 import io.gatling.core.config.GatlingConfiguration
 import io.gatling.core.structure.ScenarioContext
 import io.gatling.core.action.Action
 import io.gatling.core.protocol.ProtocolComponents
 import com.typesafe.scalalogging.Logger
 import io.gatling.core.session.Session
+import org.jiris.gatling.mqtt.MQTT
 
 class MqttRequestActionBuilder(mqttAttributes: MqttAttributes)
   extends ActionBuilder {
