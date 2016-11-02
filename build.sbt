@@ -2,7 +2,7 @@ name := "gatling-mqtt"
 
 version := "0.0.4-SNAPSHOT"
 
-scalaVersion := "2.11.5"
+scalaVersion := "2.11.8"
 
 enablePlugins(GatlingPlugin)
 

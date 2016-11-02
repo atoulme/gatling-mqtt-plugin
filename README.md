@@ -1,13 +1,13 @@
 # Gatling-MQTT
 
-An unofficial [Gatling](http://gatling.io/) stress test plugin
+A [Gatling](http://gatling.io/) stress test plugin
 for [MQTT](http://mqtt.org/).
 
 ## Usage
 
 ### Cloning this repository
 
-    $ git clone https://github.com/mnogu/gatling-mqtt.git
+    $ git clone https://github.com/dan-core/gatling-mqtt-plugin.git
     $ cd gatling-mqtt
 
 ### Creating a jar file
@@ -157,6 +157,9 @@ After starting an MQTT broker, run a stress test:
 
     $ bin/gatling.sh
 
+## Credits
+
+Based on the original work by mnogu: https://github.com/mnogu/gatling-mqtt
 ## License
 
 Apache License, Version 2.0
